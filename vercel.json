@@ -2,11 +2,11 @@
     "version": 2,
     "builds": [
       {
-        "src": "./server.js",
+        "src": "./inde.js",
         "use": "@vercel/node"
       }
     ],
-    "routes": [
+    "rewrites": [
       {
         "src": "/(.*)",
         "destination": "/"

@@ -1,0 +1,26 @@
+{
+    "project": {
+        "port": 3002,
+        "jwtSecret": "@h3@re@p1se3retkey02",
+        "url": "localhost:3002",
+        "host": "localhost:3002"
+    },
+    "database": {
+        "username": "sriramshol",
+        "password": "Vzo6QUexNKAKBErk",
+        "host": "cluster0.wunev.mongodb.net",
+        "port": "27017",
+        "database": "messages",
+        "options" : "?retryWrites=true&w=majority&appName=Cluster0",
+        "cloud" : "true"
+    },
+    "mail": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "sholavandan@gmail.com",
+            "pass": "Feb09@013"
+        }
+    }
+}
